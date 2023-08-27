@@ -1,0 +1,37 @@
+.contact_partie1 {
+	padding: 7%;
+	background-color:#E6E2E1;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.contact_partie2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:7%;
+}
+
+
+.gmail {
+	height : 70% ;
+
+
+}
+.discord {
+	height : 70% ;
+}
+
+
+
+.icone_box {
+	margin-top: 10%;
+	width: 100%;
+	text-align: center;
+}
+
+.police_icone {
+	text-decoration:none;
+}

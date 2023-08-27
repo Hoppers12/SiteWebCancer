@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WhyCancer</title>
+
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+
+    <!-- Polices d'écriture importés : -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <!--Icone URL-->
+    <link rel="shortcut icon" href="../assets/imgs/crabe.png" />
+  </head>
+  <body>
+ <!-- HEADER -->
+    <header>
+        <div class="header p-4 ">
+            <div class="d-flex w-40" id="bloc_header">
+                <img class= "logo" src="../assets/imgs/logo.png" alt ="LOGO"> 
+                <h1 class="Titre police" >WhyCanc<span class=text-warning>er</span></h1>
+            </div>
+        
+
+        <!-- Navbar (bootstrap) -->
+        <ul class="nav nav-tabs d-flex justify-content-around mt-0 mb-0.5 police w-600">
+          <li class="nav-item" id ="MyBtn">
+            <a  class="nav-link mouse"  href="../index.html" id="MyPara">ACCUEIL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mouse " href="../pages/maladie.html"> LA MALADIE</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link mouse" href="../pages/traitements.html">TRAITEMENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mouse" href="../pages/A-propos.html">A PROPOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mouse" href="../pages/contact.html">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mouse" href="../pages/legal.html">LEGALE</a>
+          </li>
+
+        </ul>
+    </div>
+
+    </header>
+<!-- Partie 1 de la page contact (fond gris) -->
+<div class="contact_partie1 ">
+  <h1 class="police"> Partagez nous vos coordonnées </h1>
+  <h3> Pleins d'informations vous seront envoyées par mail !  </h3>
+
+  <!-- Formulaire de contact-->
+  <form class="formulaire">
+    <div class="mb-3">
+
+      <label for="name" class="form-label">Nom (15 caractères max)</label>
+      <input type="text" class="form-control" id="name" required
+       minlength="2" maxlength="15" size="10">
+
+      <label for="firstname" class="form-label">Prénom (15 caractères max)</label>
+      <input type="text" class="form-control" id="firstname" required
+       minlength="2" maxlength="15" size="10">
+
+      <label for="date_naiss" class="form-label">Date de naissance</label>
+      <input type="date" class="form-control" id="date_naiss" required>
+
+      <label for="exampleInputEmail1" class="form-label">Adresse mail</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Celle-ci ne sera jamais partagée à d'autres organismes</div>
+    </div>
+
+    <div class="mb-3">
+
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">J'accepte de recevoir des informations complémentaires</label>
+    </div>
+
+    <button type="submit" class="btn btn-warning">Valider</button>
+
+  </form>
+</div>
+
+<!-- PARTIE 2 DE LA PAGE // RESEAUX SOCIAUX -->
+<div class="contact_partie2">
+  <div class="d-flex flex-column align-items-center border-bottom border-warning border-3">
+    <h4> NOS CONTACTS  </h4>
+    <h1> RETROUVEZ NOUS ICI : </h1>
+  </div>
+  
+<!-- LIENS VERS LES RESEAUX -->
+  <div class="d-flex justify-content-around icone_box">
+    <a target="_blank" href="https://discord.com/">
+      <img class= "discord" src="../assets/imgs/discord.png" alt ="LOGO DISCORD"> 
+    </a>
+    <a target="_blank" href="https://www.google.com/intl/fr/gmail/about/">
+      <img class= "gmail icone" src="../assets/imgs/gmail.png" alt ="notre adresse mail"> 
+    </a>
+    <a target="_blank" href="https://www.facebook.com/">
+      <img class= "mb-4 icone" src="../assets/imgs/facebook.png" alt ="LOGO FACEBOOK" > 
+    </a>
+  </div>
+
+</div>
+
+    <!-- FOOTER BOOTSTRAP-->
+<footer class="bg-black text-white py-1">
+  <div class="container">
+      <div class="col text-center">
+        <p class="mb-0">Copyright &copy; 2023</p>
+      </div>
+    </div>
+</footer>
+
+
+</body>
+
+  </html>
+

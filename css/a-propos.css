@@ -1,0 +1,84 @@
+
+.police_a_propos {
+	font-size:1em;
+	width : 50%;
+	margin-top: 3%;
+}
+
+.police2_a_propos {
+	font-size:100%;
+
+}
+
+
+.accueil2 {
+	margin:0 ;
+	background-color:#E6E2E1;
+	height:100%;
+	display:flex;
+	padding-bottom:8% ;
+}
+
+.article1_a_propos {
+	display:flex;
+	padding-top:5%;
+	flex-direction:column;
+	margin-left:15%;
+	width:35%;
+	border-right:1px solid black;
+	padding-right:5%;
+	align-items: center;
+	text-align:center;
+}
+
+.article2_a_propos {
+	display:flex;
+	padding-top:5%;
+	width : 30%;
+	flex-direction:column;
+	margin-right:20%;
+	border-left:1px solid black;
+	padding-left:5%;
+	align-items: center;
+	text-align:center;
+}
+
+
+@media screen and (max-width: 910px) {
+
+		.accueil2 {
+		flex-direction: column;
+	}
+
+	.article1_a_propos {
+		display:flex;
+		padding-top:5%;
+		flex-direction:column;
+		width:100%;
+		border-right:0px solid black;
+		align-items: center;
+		margin:0;
+	}
+
+	.article2_a_propos {
+		display:flex;
+		padding-top:5%;
+		width : 100%;
+		flex-direction:column;
+		border-left:1px solid black;
+		align-items: center;
+	}
+
+	.police_a_propos {
+		font-size:2em;
+		width : 50%;
+		margin-top: 3%;
+	}
+
+	.police2_a_propos {
+		font-size:100%;
+
+	}
+
+
+	}

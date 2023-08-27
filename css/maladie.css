@@ -1,0 +1,25 @@
+.article_maladie {
+	text-align: center;
+}
+
+.main {
+	background-color: #E6E2E1;
+	padding : 2%;
+	height:75em;
+}
+
+/*Mise en colonne du contenu pour facilier le lecture sur petit écran */
+@media screen and (max-width: 910px) {
+
+	.article_maladie {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main {
+		height:auto;
+	}
+
+
+
+}

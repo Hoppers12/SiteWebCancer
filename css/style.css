@@ -1,0 +1,195 @@
+/* polices d'écriture : */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+
+.grey {
+	background-color: #E6E2E1;
+}
+
+
+.header {
+	display:flex;
+	justify-content: space-around;	
+	align-items: center;
+	margin-top:0;
+}
+
+.logo {
+	width : 20%;
+	height:100%;
+}
+
+/* SURVOL DE LA NAVBAR */
+.mouse:hover  {
+	border-bottom:10px solid black;
+	color:#FFE831;
+}
+
+
+
+#color_link{
+	color:black;
+}
+
+.police {
+	font-family: 'Unbounded', cursive;
+}
+
+.mouse {
+	color:black;
+}
+
+
+
+/* premiere chose que l'on voit en arrivant sur la page : */
+.accueil  {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin:0 ;
+	background-color:#E6E2E1;
+	width:100%;
+	height:38em;
+
+
+}
+
+
+/* SCSS qui modifie les flèches pour changer de slides */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 80px;
+    width: 80px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    }
+
+
+.image2 {
+	padding:20%;
+}
+.responsive {
+	margin-left:0px;}
+
+.text{
+	font-size:260%;
+}
+
+.article_main {
+	display:flex;
+	justify-content:space-between;
+}
+
+/* Chaque petite carré contenant des informations lors du défilement de la page d'accueil: */
+.carre {
+	width:50%;
+	height: 25em;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+
+
+
+/* Media queries qui empile les carrés à partir de 640 px pour améliorer la mise en page */
+@media screen and (max-width: 770px) {
+	.blod_header {
+		justify-content: center;
+	}
+	.article_main {
+		flex-direction: column;
+		
+	}
+	.carre {
+		width: 	100%;
+		width:100%;
+		height: 25em;
+	}
+
+	.carre1 {
+	border-top:1px solid black;
+}
+
+	.carre3 {
+	border-top:1px solid black;
+
+}
+	.carre5 {
+		border-top:1px solid black;
+
+}
+/* RESPONSIVE DU HEADER*/
+	.header {
+		padding:0;
+		flex-direction: column;
+	}
+
+	.logo {
+		width:15%;
+	}
+
+
+	}
+
+@media screen and (max-width: 1200px) {
+
+	.logo {
+		width:20%
+	}
+
+}
+
+/* Gestion de la taille des images par rapport au carré conteneur (responsive) */
+.carre2 {
+	display:flex;
+}
+.carre2 img{
+	width: 50%;
+
+}
+
+.carre2 img:hover{
+	width: 54%;
+
+}
+
+.carre3 {
+	display:flex;
+
+}
+.carre3 img{
+	width: 70%;
+	
+}
+
+.carre3 img:hover{
+	width: 75%;
+
+}
+
+
+.carre6 {
+	display:flex;
+}
+
+.carre6 img{
+	width: 51%;
+	
+}
+
+.carre6 img:hover{
+	width: 56%;
+
+}
+/* Couleurs des carrés */
+.couleur1 {
+	background-color: #E8E4E3;
+}
+
+.couleur2 {
+	background-color: #FEFBFA;
+}
